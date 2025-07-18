@@ -6,8 +6,7 @@ export interface PostProps {
 }
 
 export interface UserProps {
-  userId: number;
-  id: number;
-  title: string;
-  body: string;
+    username: string;
+    street: string;
+    catchPhrase: string;
 }
